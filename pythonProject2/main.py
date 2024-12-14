@@ -4,6 +4,11 @@ cont = 0
 lista = [1, 2, 3]
 listd = [{'Nome': 'Mario', 'Cognome': 'Rossi', 'mail': False}, \
          {'Nome': 'Giuseppe', 'Cognome': 'Verdi', 'mail': False}]
+diz={'Nome': 'Mario', 'Cognome': 'Rossi', 'mail': False}
+print(diz['Nome'])
+if(diz['mail']==False):
+    print('send mail')
+    diz['mail']=True
 print('scegli 1 per la prenotazione, 2 per la visualizazzione: ')
 if int(input('digita il numero: ')) == 1:
     while True:
