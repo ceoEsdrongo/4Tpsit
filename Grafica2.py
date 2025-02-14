@@ -1,6 +1,4 @@
 '''
-Allegro Elena
-4AI
 
 Partendo dallo script Grafica01, esempio a pag.308 del libro di testo
 realizzare un'interfaccia grafica ANAGRAFICA.
